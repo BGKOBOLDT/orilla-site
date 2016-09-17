@@ -57,10 +57,12 @@ body {
 
 .logo {
   background: url("../images/logo.png") no-repeat;
-  width: 200px;
-  height: 80px;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 10;
+	background: url("../images/logo.svg") no-repeat;
+	width: 200px;
+	height: 80px;
+	position: absolute;
+	right: 60px;
+	top: 40px;
+	z-index: 10;
+	background-size: 100%;
 }
