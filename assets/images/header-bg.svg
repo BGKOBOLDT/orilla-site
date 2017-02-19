@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="625px" height="625px" viewBox="0 0 625 625" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>header-bg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0.0805224636,308.160714 C0.0805224636,485.749588 134.174876,624.251916 312.401548,624.251916 C490.628221,624.251916 624.722574,485.749588 624.722574,308.160714 C624.722574,135.670085 490.628221,0.566587468 312.401548,0.566587468 C134.174876,0.566587468 0.0805224636,135.670085 0.0805224636,308.160714 L0.0805224636,308.160714 Z M114.654812,308.160714 C114.654812,189.20166 203.768148,98.2829537 312.401548,98.2829537 C421.034949,98.2829537 510.148285,189.20166 510.148285,308.160714 C510.148285,432.218014 421.034949,526.53555 312.401548,526.53555 C203.768148,526.53555 114.654812,432.218014 114.654812,308.160714 L114.654812,308.160714 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="header-bg">
+            <g id="Stroke-3-+-Stroke-4-+-Stroke-5-+-Stroke-6-Mask-Copy">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#293460" xlink:href="#path-1"></use>
+                <polygon id="Stroke-3" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)" points="502.261764 637.523908 507.487517 637.523908 507.487517 -143.98738 502.261764 -143.98738"></polygon>
+                <polygon id="Stroke-4" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)" points="374.20889 637.523908 379.434642 637.523908 379.434642 -143.98738 374.20889 -143.98738"></polygon>
+                <polygon id="Stroke-5" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)" points="238.15271 637.523908 243.378462 637.523908 243.378462 -143.98738 238.15271 -143.98738"></polygon>
+                <polygon id="Stroke-6" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)" points="118.10314 637.523908 123.328892 637.523908 123.328892 -143.98738 118.10314 -143.98738"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

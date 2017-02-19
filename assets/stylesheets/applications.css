@@ -3,6 +3,12 @@
    License: none (public domain)
 */
 
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+	}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -29,40 +35,160 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	font-family: 'Lato', sans-serif;
+	color: #293460;
+	font-size: 1em;
+	line-height: 1.5;
 }
-ol, ul {
-	list-style: none;
+body, html {
+	width: 100%;
+	height: 100%;
 }
-blockquote, q {
-	quotes: none;
+ol, ul { list-style: none; }
+
+/* Helpers */
+.item-right {
+	position: absolute;
+	right: 0;
+	top: 0;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+.item-right a {
+	color: #fff;
+	text-decoration: none;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+.wrap {
+	max-width: 1024px;
+	margin: 0 auto;
+	position: relative;
+}
+section {
+	text-align: center;
+	margin-bottom: 100px;
+}
+.section-how-it-works {
+	margin-top: -30px;
 }
 
-body {
-  background: url("../images/orilla_bg.jpg") no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+/* #Tipography */
+.section-headline {
+	font-size: 46px;
+	font-weight: 700;
+	letter-spacing: -2.48px;
+	display: inline-block;
+	margin: 20px 0;
+}
+p {
+	font-size: 21px;
+	letter-spacing: -0.5px;
+	line-height: 32px;
+	font-weight: normal;
 }
 
+/* #header */
+.header {
+	background: #009DFF;
+	padding: 30px 0 120px 0;
+	overflow: hidden;
+}
+.header-headline {
+	width: 45%;
+	display: inline-block;
+	padding: 50px 0;
+}
+.headline {
+	font-weight: 700;
+	font-size: 42px;
+	color: #fff;
+	letter-spacing: -2px;
+	line-height: 52px;
+	position: relative;
+	z-index: 5;
+}
+.divider {
+  position: relative;
+  overflow: visible!important;
+}
+.divider polygon {
+  position: absolute;
+  fill: #fff;
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
+/* #Sections*/
+.client-item {
+	display: inline-block;
+	width: 25%;
+	margin: 10px;
+}
+
+/* #images*/
 .logo {
   background: url("../images/logo.png") no-repeat;
 	background: url("../images/logo.svg") no-repeat;
+	display: block;
 	width: 200px;
 	height: 80px;
-	position: absolute;
-	right: 60px;
-	top: 40px;
+	position: relative;
 	z-index: 10;
+	margin-top: 30px;
 	background-size: 100%;
+}
+.header-bg {
+	background: url("../images/header-bg.png") no-repeat;
+	background: url("../images/header-bg.svg") no-repeat;
+	display: block;
+	background-size: 100%;
+	width: 640px;
+	height: 640px;
+	position: absolute;
+	top: -90px;
+	right: -120px;
+	z-index: 0;
+}
+.header-bg-headline {
+	background: url("../images/header-bg-headline.png") no-repeat;
+	background: url("../images/header-bg-headline.svg") no-repeat;
+	background-size: 100%;
+	width: 550px;
+	height: 300px;
+	position: absolute;
+	top: 60px;
+	left: -110px;
+	z-index: 0;
+	-webkit-opacity: 0.2;
+		 -moz-opacity: 0.2;
+					opacity: 0.2;
+}
+
+.icons {
+	background: url("../images/icons.png") no-repeat;
+	background: url("../images/icons.svg") no-repeat;
+	background-size: 100%;
+	display: block;
+	width: 104px;
+	height: 100px;
+	position: relative;
+	margin: 0 auto;
+}
+.icon-solution{background-position: 10px 0;}
+.icon-clients{background-position: 0px -93px;}
+.icon-contact{background-position: 0 -200px;}
+
+/* #Footer*/
+.footer {
+	background: #293460;
+	border-top: 4px solid #009DFF;
+	color: #ffffff;
+	padding: 40px 0;
+	margin: 0;
+}
+.footer-content {
+	position: relative;
+	width: 1024px;
+	margin: 0	auto;
+}
+.footer-content p {
+	font-size: 14px;
+	letter-spacing: 1px;
 }
