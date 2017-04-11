@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/stylesheets/animate.min.css">
     <link rel="stylesheet" href="assets/stylesheets/applications.css">
     <link rel="stylesheet" href="assets/stylesheets/mediaqueries.css">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1">
@@ -26,7 +27,7 @@
       </svg>
       <div class="wrap">
         <section class="section section-how-it-works">
-          <i class="icons icon-solution"></i>
+          <i class="icons icon-solution animated"></i>
           <h2 class="section-headline">
             Como a Orilla resolve seus problemas
           </h2>
@@ -35,7 +36,7 @@
           </p>
         </section>
         <section class="section section-clients">
-          <i class="icons icon-clients"></i>
+          <i class="icons icon-clients animated"></i>
           <h2 class="section-headline">
             Clientes
           </h2>
@@ -49,7 +50,7 @@
           </ul>
         </section>
         <section class="section section-contact">
-          <i class="icons icon-contact"></i>
+          <i class="icons icon-contact animated"></i>
           <h2 class="section-headline">
             Suporte e contato
           </h2>
@@ -78,7 +79,7 @@
                 Sua mensagem foi enviada :)
               </div>
             </form>
-            <iframe src="#" id="no-target" name="no-target" style="visibility:hidden"></iframe>
+            <iframe src="" id="no-target" name="no-target" style="visibility:hidden"></iframe>
           </p>
         </section>
       </div>
@@ -93,7 +94,7 @@
       // Get Current Year
       var d = new Date();
       var currentYear = d.getFullYear();
-      $(".current-year").html(currentYear)
+      $(".current-year").html(currentYear);
 
       $('#input-form-shiping').one('submit',function(){
         //reverse captcha
@@ -118,6 +119,21 @@
           return false;
         }
         });
+
+        $(window).scroll(function (event) {
+          var scroll = $(window).scrollTop();
+          console.log(scroll);
+
+          if(scroll = 400){
+            $(".icon-solution").addClass("fadeInUp");
+          } if (scroll = 800) {
+            $(".icon-clients").addClass("fadeInUp");
+          } if (scroll = 1200) {
+            $(".icon-contact").addClass("fadeInUp");
+          }
+
+        });
+
       });//wrapper end
     </script>
   </body>
