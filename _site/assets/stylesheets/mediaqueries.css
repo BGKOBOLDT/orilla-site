@@ -1,0 +1,38 @@
+@media only screen and (max-width:1024px){
+  .header-bg {
+    display: none;
+  }
+  .header-headline,
+  .footer-content,
+  .wrap {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .section-headline {
+    line-height: 1;
+  }
+  .section-how-it-works {
+    margin-top: 20px;
+  }
+  .client-item {
+    display: block;
+    width: 100%;
+    margin: 0px;
+  }
+  .item-right {
+    display: block;
+  }
+  .footer-content {
+    text-align: center;
+    padding: 0 0 20px 0;
+  }
+  .footer-content p {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+  }
+  .footer-content p a {
+    margin: 40px 0;
+    display: inline-block;
+  }
+}
