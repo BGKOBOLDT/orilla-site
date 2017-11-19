@@ -90,6 +90,8 @@
         <p>Todos os direitos reservados. Orilla - <span class="current-year"></span></p>
       </div>
     </footer>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109893790-1"></script>
     <script type="text/javascript">
     $(document).ready(function(){
       // Get Current Year
@@ -136,6 +138,11 @@
         });
 
       });//wrapper end
+      
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-109893790-1');
     </script>
   </body>
 </html>
